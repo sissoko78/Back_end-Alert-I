@@ -9,6 +9,10 @@ public class User {
     private String role;
     private String localite;
     private int num_tel;
+
+    public User() {
+    }
+
     public User(int id, String prenom, String nom, String email, String password, String role, String localite, int num_tel) {
         this.id = id;
         this.prenom = prenom;
